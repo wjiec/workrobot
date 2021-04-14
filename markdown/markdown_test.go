@@ -58,9 +58,9 @@ func TestColorGay(t *testing.T) {
 	}
 }
 
-func TestColorRed(t *testing.T) {
-	red := ColorRed(Bold(Inline("hello")))
-	if red.String() != `<font color="warning">**hello**</font>` {
+func TestColorOrangeRed(t *testing.T) {
+	or := ColorOrangeRed(Bold(Inline("hello")))
+	if or.String() != `<font color="warning">**hello**</font>` {
 		t.Fatal("incorrect green")
 	}
 }

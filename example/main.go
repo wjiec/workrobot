@@ -30,7 +30,7 @@ func main() {
 	md, _ := workrobot.NewMarkdown(markdown.Title(markdown.MediumTitle, "Server Closed"),
 		markdown.Quote("Ip: 10.2.3.4\nAction: Restart"),
 		markdown.Link("view", "http://dashboard.example.com"),
-		markdown.ColorRed("something message..."))
+		markdown.ColorOrangeRed("something message..."))
 
 	f, _ := os.Open("/image.jpg")
 	image, _ := workrobot.NewImage(f)

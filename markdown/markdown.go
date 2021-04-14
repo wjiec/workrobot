@@ -68,8 +68,8 @@ func ColorGray(s interface{}) Segment {
 	return Inline(fmt.Sprintf(`<font color="comment">%s</font>`, s))
 }
 
-// ColorRed create a text with red color
-func ColorRed(s interface{}) Segment {
+// ColorOrangeRed create a text with orange-red color
+func ColorOrangeRed(s interface{}) Segment {
 	return Inline(fmt.Sprintf(`<font color="warning">%s</font>`, s))
 }
 
